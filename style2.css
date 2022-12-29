@@ -1,0 +1,26 @@
+
+
+.container{
+    width: 900;
+    height: 600px;
+    border: 2px solid;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+
+.item{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+
+
+}
+
+
+.item:nth-child(odd){
+    align-self: end;
+}
